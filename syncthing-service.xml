@@ -1,0 +1,11 @@
+<service>
+  <id>syncthing</id>
+  <name>syncthing Service</name>
+  <description>Runs the syncthing.exe as a service</description>
+  <executable>C:\syncthing\syncthing.exe</executable>
+  <stopexecutable>C:\syncthing\syncthing-stop.cmd</stopexecutable>
+  <logpath>C:\syncthing\logs</logpath>
+  <logmode>roll</logmode>
+  <startargument>-no-console</startargument>
+  <startargument>-no-browser</startargument>
+</service> 
