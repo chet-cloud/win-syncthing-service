@@ -34,3 +34,5 @@ syncthing.exe generate --home c:\syncthing\config
 ```
 
 or You can open the Services (win+run>services.msc) and operate on syncthing service after install the service
+
+4. open http://localhost:8384/ to UI of syncthing
